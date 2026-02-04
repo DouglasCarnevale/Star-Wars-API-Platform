@@ -72,7 +72,7 @@ def create_response(status_code: int, body: Any, metadata: Optional[Dict] = None
         "results": body,
         "audit": {
             "timestamp": datetime.utcnow().isoformat() + "Z",
-            "version": "2.6.2",
+            "version": "2",
             "request_id": os.environ.get("FUNCTION_EXECUTION_ID", "local-dev")
         }
     }
