@@ -299,7 +299,6 @@ star-wars-api/
 │   ├── deploy-gateway.sh    # Deploy do API Gateway (Linux/Git Bash)
 │   └── cleanup.sh           # Limpeza de recursos (Linux/Git Bash)
 ├── README.md              # Este arquivo
-├── GUIA_DE_TESTES_GCP.md  # Guia detalhado para testes no GCP
 └── RELATORIO_IDS_SWAPI.md # Relatório de IDs válidos da SWAPI
 ```
 
